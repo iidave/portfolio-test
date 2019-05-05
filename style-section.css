@@ -1,0 +1,215 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Montserrat', sans-serif;*/
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(65,65,65);
+
+}
+
+/* li {
+    float: left;
+} */
+
+li a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    border-right: 1px solid #555;
+}
+
+@media screen and (max-width: 600px) {
+    li a {
+        float: none;
+        width: 100%;
+        /* padding: 20px 16px;
+        text-decoration: none;
+        color:white;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+        border-bottom: 1px solid #555; */
+    }
+  }
+
+li a:hover {
+    background-color:rgba(230, 230, 230, 0.5);
+}
+
+.active {
+    background-color: darkcyan;
+    color: white;
+}
+
+#bio {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bio h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+#bio p {
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    font-size: 1.5em;
+    text-align: center;
+    margin:40px;
+}
+
+@media screen and (max-width: 600px) {
+    #bio h1 {
+        font-size: 2em;
+    }
+    #bio p {
+        font-size: 1em;
+    }
+}
+.container h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    margin-left: 20px;
+    margin-top: -1px; 
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:black;
+    /* height:960px; */
+}
+
+.container section {
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    background-color: #999;
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(65, 65, 65, 0.9);
+    padding: 10px;
+    margin-top:280px;
+
+}
+#graphics {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/Blazer-Popup400x400.png);
+    background-blend-mode: overlay;
+    transition: all 0.3s;
+}
+
+#graphics:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+    
+}
+
+#photography {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/Holiday18-0010-Bokeh_400x400.jpg);
+    background-blend-mode: overlay;
+}
+
+#photography:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+}
+
+#illustration {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/Owl-Illus_400x400.png);
+    background-blend-mode: overlay;
+}
+
+#illustration:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+}
+
+#Writing {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/Huntsman-400x400.png);
+    background-blend-mode: overlay;
+}
+
+#Writing:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+}
+
+#render {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/3D-400x400.png);
+    background-blend-mode: overlay;
+}
+
+#render:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+}
+
+#web {
+    background-color:rgb(65,65,65);
+    background-image: url(/images/web-400x400.png);
+    background-blend-mode: overlay;
+}
+
+#web:hover {
+    transform: scale(1.03);
+    background-blend-mode: normal;
+    text-shadow: 3px 3px 10px #666;
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 100%; */
+    background-color: #555;
+    margin:0px;
+    padding-right: 20px;
+ 
+}
+
+#logos  a{
+    margin:10px;
+} 
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-left: 20px;
+    color: white;
+}
